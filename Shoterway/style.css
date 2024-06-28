@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.tabs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tab-container {
+  display: flex;
+  gap: 50px;
+}
+.tab {
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px 25px;
+}
+.tab:hover {
+  background-color: grey;
+  color: aliceblue;
+}
+.active-tab {
+  background-color: grey;
+  color: aliceblue;
+}
+.tab-content {
+  display: none;
+}
+.active-content {
+  display: block;
+}
